@@ -379,7 +379,6 @@
 		A8E87CE81C2A4C0D00D3B6E3 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		A8E8DED11C23A86100D25D40 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		A8E8DFF91C23E74A00D25D40 /* MaintabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintabBarController.swift; sourceTree = "<group>"; };
-		A8E8DFFB1C2406B200D25D40 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		CE1536AA06C707A5954F213B /* Pods-ShopNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopNew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopNew/Pods-ShopNew.debug.xcconfig"; sourceTree = "<group>"; };
 		D91B0697BAE4CB26A282A8D3 /* Pods_ShopNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -413,7 +412,6 @@
 		A8E26D651C22AC42000104EA = {
 			isa = PBXGroup;
 			children = (
-				A8E8DFFB1C2406B200D25D40 /* Bridging-Header.h */,
 				A8E26D701C22AC42000104EA /* ShopNew */,
 				A8E26D851C22AC42000104EA /* ShopNewTests */,
 				A8E26D901C22AC42000104EA /* ShopNewUITests */,
@@ -1265,7 +1263,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caotingting.www.ShopNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Documents/ShopNew/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -1280,7 +1278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caotingting.www.ShopNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Documents/ShopNew/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
