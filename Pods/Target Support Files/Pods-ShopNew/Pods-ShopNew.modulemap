@@ -1,0 +1,6 @@
+framework module Pods_ShopNew {
+  umbrella header "Pods-ShopNew-umbrella.h"
+
+  export *
+  module * { export * }
+}

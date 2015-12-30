@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (3.0.1)
+  - Kingfisher (1.6.1)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (2.4.12)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SwiftyJSON (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0.1)
+  - Kingfisher (~> 1.6.1)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 2.4.12)
+  - SDWebImage (~> 3.7.3)
+  - SwiftyJSON (~> 2.3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 2457e1b2e6c46bb05c3a598c542b7bfd08893775
+  Kingfisher: a40cf8134ba1a78f395bdd3ee97d386ff3c3be0d
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
+
+COCOAPODS: 0.38.2
